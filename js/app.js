@@ -1,0 +1,28 @@
+$(document).ready(function(){
+    $(".menu1a").click(function(){
+        $(".menu1b").toggle();
+        $(".menu2b").hide();
+        $(".menu3b").hide();
+        $(".menu4b").hide();
+    });
+    $(".menu2a").click(function(){
+        $(".menu2b").toggle();
+        $(".menu1b").hide();
+        $(".menu3b").hide();
+        $(".menu4b").hide();
+    });
+    $(".menu3a").click(function(){
+        $(".menu3b").toggle();
+        $(".menu2b").hide();
+        $(".menu1b").hide();
+        $(".menu4b").hide();
+    });
+    $(".menu4a").click(function(){
+        $(".menu4b").toggle();
+        $(".menu2b").hide();
+        $(".menu3b").hide();
+        $(".menu1b").hide();
+    });
+    var e=Math.ceil(6*Math.random());
+    $("body").removeClass().addClass("color-scheme-"+e)
+});
