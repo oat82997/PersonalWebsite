@@ -2,7 +2,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .color-scheme-1 {
   color: #EA628F;
-  background: url('../background.svg'), linear-gradient(135deg, #162844, #04080F);
+  background: url('../background.svg'), linear-gradient(135deg, #162844, #2B4E87);
   height: 100vh;
   width: 100vw;
 }
