@@ -3,6 +3,7 @@
 .color-scheme-1 {
   color: #EA628F;
   background: url('../background.svg'), linear-gradient(135deg, #162844, #2B4E87);
+  height: 100vh;
 }
 .color-scheme-1 input[type="text"], .color-scheme-1 textarea {
   color: #162844;
