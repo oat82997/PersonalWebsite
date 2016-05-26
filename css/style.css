@@ -2,7 +2,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .color-scheme-1 {
   color: #EA628F;
-  background-color: #162844;
+  background: #162844 url('../background.svg');
 }
 .color-scheme-1 input[type="text"], .color-scheme-1 textarea {
   color: #162844;
