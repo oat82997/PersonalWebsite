@@ -1,193 +1,219 @@
-/* Color Scheme 1
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.color-scheme-1 {
-  color: #EA628F;
-  background: url('../background.svg'), linear-gradient(135deg, #162844, #2B4E87);
-  height: 100vh;
-}
-.color-scheme-1 input[type="text"], .color-scheme-1 textarea {
-  color: #162844;
-  background-color: #FFD8D8 !important;
-}
-.color-scheme-1 button {
-  color: #FFD8D8;
-  background-color: #162844;
-}
-.color-scheme-1 svg {
-    fill: #FFD8D8;
-}
-.color-scheme-1 input[type="submit"] {
-  color: #FFD8D8;
-  background-color: #162844;
-}
+/* Deep Purple */
+.colors-1 {
+  color: #EDE7F6;
+  background-color: #4527A0; }
+  .colors-1 ::selection {
+    color: #4527A0;
+    background: #EDE7F6; }
+  .colors-1 hr {
+    border-color: #7E57C2; }
+  .colors-1 button {
+    color: #EDE7F6;
+    border-color: #7E57C2;
+    background-color: #7E57C2; }
+    .colors-1 button:hover {
+      background: linear-gradient(90deg, #4527A0, #311B92); }
+  .colors-1 input, .colors-1 textarea {
+    color: #4527A0;
+    background-color: #EDE7F6 !important; }
+    .colors-1 input::selection, .colors-1 textarea::selection {
+      color: #EDE7F6;
+      background: #4527A0; }
+  .colors-1 h2, .colors-1 #title {
+    color: #EDE7F6; }
+  .colors-1 svg {
+    fill: #EDE7F6; }
 
-/* Color Scheme 2
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.color-scheme-2 {
-  color: #452C2B;
-  background-color: #DCE0D9;
-}
-.color-scheme-2 input[type="text"], .color-scheme-2 textarea {
-  color: #DCE0D9;
-  background-color: #25231D !important;
-}
-.color-scheme-2 button {
-  color: #25231D;
-}
-.color-scheme-2 svg {
-    fill: #25231D;
-}
-.color-scheme-2 input[type="submit"] {
-  color: #25231D;
-}
+/* Indigo */
+.colors-2 {
+  color: #E8EAF6;
+  background-color: #283593; }
+  .colors-2 ::selection {
+    color: #283593;
+    background: #E8EAF6; }
+  .colors-2 hr {
+    border-color: #7986CB; }
+  .colors-2 button {
+    color: #E8EAF6;
+    border-color: #7986CB;
+    background-color: #7986CB; }
+    .colors-2 button:hover {
+      background: linear-gradient(90deg, #283593, #1A237E); }
+  .colors-2 input, .colors-2 textarea {
+    color: #283593;
+    background-color: #E8EAF6 !important; }
+    .colors-2 input::selection, .colors-2 textarea::selection {
+      color: #E8EAF6;
+      background: #283593; }
+  .colors-2 h2, .colors-2 #title {
+    color: #E8EAF6; }
+  .colors-2 svg {
+    fill: #E8EAF6; }
 
-/* Color Scheme 3
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.color-scheme-3 {
-  color: #C4F1BE;
-  background-color: #23846A;
-}
-.color-scheme-3 input[type="text"], .color-scheme-3 textarea {
-  color: #23846A;
-  background-color: #F1FFE7 !important;
-}
-.color-scheme-3 button {
-  color: #F1FFE7;
-}
-.color-scheme-3 svg {
-    fill: #F1FFE7;
-}
-.color-scheme-3 input[type="submit"] {
-  color: #F1FFE7;
-}
+/* Cyan */
+.colors-3 {
+  color: #E0F7FA;
+  background-color: #00838F; }
+  .colors-3 ::selection {
+    color: #00838F;
+    background: #E0F7FA; }
+  .colors-3 hr {
+    border-color: #26C6DA; }
+  .colors-3 button {
+    color: #E0F7FA;
+    border-color: #26C6DA;
+    background-color: #26C6DA; }
+    .colors-3 button:hover {
+      background: linear-gradient(90deg, #00838F, #006064); }
+  .colors-3 input, .colors-3 textarea {
+    color: #00838F;
+    background-color: #E0F7FA !important; }
+    .colors-3 input::selection, .colors-3 textarea::selection {
+      color: #E0F7FA;
+      background: #00838F; }
+  .colors-3 h2, .colors-3 #title {
+    color: #E0F7FA; }
+  .colors-3 svg {
+    fill: #E0F7FA; }
 
-/* Color Scheme 4
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.color-scheme-4 {
-  color: #656176;
-  background-color: #F8F1FF;
-}
-.color-scheme-4 input[type="text"], .color-scheme-4 textarea {
-  color: #F8F1FF;
-  background-color: #5A4788 !important;
-}
-.color-scheme-4 button {
-  color: #5A4788;
-}
-.color-scheme-4 svg {
-    fill: #5A4788;
-}
-.color-scheme-4 input[type="submit"] {
-  color: #5A4788;
-}
+/* Pink */
+.colors-4 {
+  color: #FCE4EC;
+  background-color: #AD1457; }
+  .colors-4 ::selection {
+    color: #AD1457;
+    background: #FCE4EC; }
+  .colors-4 hr {
+    border-color: #EC407A; }
+  .colors-4 button {
+    color: #FCE4EC;
+    border-color: #EC407A;
+    background-color: #EC407A; }
+    .colors-4 button:hover {
+      background: linear-gradient(90deg, #AD1457, #880E4F); }
+  .colors-4 input, .colors-4 textarea {
+    color: #AD1457;
+    background-color: #FCE4EC !important; }
+    .colors-4 input::selection, .colors-4 textarea::selection {
+      color: #FCE4EC;
+      background: #AD1457; }
+  .colors-4 h2, .colors-4 #title {
+    color: #FCE4EC; }
+  .colors-4 svg {
+    fill: #FCE4EC; }
 
-/* Color Scheme 5
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.color-scheme-5 {
-  color: #4E0110;
-  background-color: #B5D2CB;
-}
-.color-scheme-5 input[type="text"], .color-scheme-5 textarea {
-  color: #B5D2CB;
-  background-color: #475B5A !important;
-}
-.color-scheme-5 button {
-  color: #475B5A;
-}
-.color-scheme-5 svg {
-    fill: #475B5A;
-}
-.color-scheme-5 input[type="submit"] {
-  color: #475B5A;
-}
+/* Teal */
+.colors-5 {
+  color: #E0F2F1;
+  background-color: #00695C; }
+  .colors-5 ::selection {
+    color: #00695C;
+    background: #E0F2F1; }
+  .colors-5 hr {
+    border-color: #26A69A; }
+  .colors-5 button {
+    color: #E0F2F1;
+    border-color: #26A69A;
+    background-color: #26A69A; }
+    .colors-5 button:hover {
+      background: linear-gradient(90deg, #00695C, #004D40); }
+  .colors-5 input, .colors-5 textarea {
+    color: #00695C;
+    background-color: #E0F2F1 !important; }
+    .colors-5 input::selection, .colors-5 textarea::selection {
+      color: #E0F2F1;
+      background: #00695C; }
+  .colors-5 h2, .colors-5 #title {
+    color: #E0F2F1; }
+  .colors-5 svg {
+    fill: #E0F2F1; }
 
-/* Color Scheme 6
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.color-scheme-6 {
-  color: #91C7B1;
-  background-color: #54494B;
-}
-.color-scheme-6 input[type="text"], .color-scheme-6 textarea {
-  color: #54494B;
-  background-color: #F1F7ED !important;
-}
-.color-scheme-6 button {
-  color: #F1F7ED;
-}
-.color-scheme-6 svg {
-    fill: #F1F7ED;
-}
-.color-scheme-6 input[type="submit"] {
-  color: #F1F7ED;
-}
+/* Green */
+.colors-6 {
+  color: #E8F5E9;
+  background-color: #2E7D32; }
+  .colors-6 ::selection {
+    color: #2E7D32;
+    background: #E8F5E9; }
+  .colors-6 hr {
+    border-color: #66BB6A; }
+  .colors-6 button {
+    color: #E8F5E9;
+    border-color: #66BB6A;
+    background-color: #66BB6A; }
+    .colors-6 button:hover {
+      background: linear-gradient(90deg, #2E7D32, #1B5E20); }
+  .colors-6 input, .colors-6 textarea {
+    color: #2E7D32;
+    background-color: #E8F5E9 !important; }
+    .colors-6 input::selection, .colors-6 textarea::selection {
+      color: #E8F5E9;
+      background: #2E7D32; }
+  .colors-6 h2, .colors-6 #title {
+    color: #E8F5E9; }
+  .colors-6 svg {
+    fill: #E8F5E9; }
 
-/* Document CSS
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Document Styling */
 html {
   overflow-y: scroll;
-}
-
-* {
   font-family: 'montserrat', sans-serif !important;
-  font-weight: 700;
-}
+  font-weight: 700; }
 
-svg {
-  width: 100vw;
+hr {
+  margin-top: .5em;
+  margin-bottom: .5em; }
+
+.project {
+  margin-top: 2rem; }
+
+.project img {
+  display: block;
+  margin: 0 auto;
   max-width: 100%;
-  height: auto;
-}
+  height: auto; }
+
+#logo {
+  height: 5em;
+  max-width: 100vw;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em; }
+
+#title {
+  margin-top: 1.3rem;
+  text-align: center;
+  margin-bottom: 0px; }
+
+.title {
+  margin-bottom: 1rem; }
 
 .container {
   margin-top: 2rem;
-  margin-bottom: 2rem;
-}
+  margin-bottom: 2rem; }
 
 li {
-  list-style: none;
-}
+  list-style: none; }
 
 button {
   width: 100%;
-}
+  margin-top: .5em;
+  margin-bottom: .5em; }
 
 #menu {
-  margin-top: 2rem;
-}
-
-a {
-
-}
-
- .pic {
- 	@include aspect-ratio(1,1);
- 	max-height: 90vh;
- 	max-width: auto;
- }
-
-.text:hover {
-	text-decoration: underline;
-}
+  margin-top: 2rem; }
 
 .hidden {
-	display: none;
-}
-
-.sq {
-	width: auto;
-	@include aspect-ratio(1,1);
-	height: 100%;
-}
-
-.ss-q-title{
-	font-size: 1em;
-}
+  display: none; }
 
 input {
-	width: 100%;
-}
+  width: 100%; }
 
 textarea {
   width: 100%;
   height: 4rem;
-}
+  resize: none; }
+
+/*# sourceMappingURL=style.css.map */

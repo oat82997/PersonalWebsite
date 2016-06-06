@@ -1,0 +1,150 @@
+/* Deep Purple */
+.colors-1 {
+  $p: #EDE7F6; $s: #7E57C2; $t: #4527A0; $q: #311B92;
+  ::selection {color: $t; background: $p}
+  color: $p; background-color: $t;
+  hr {border-color: $s;}
+  button {color: $p; border-color: $s; background-color: $s; &:hover {background: linear-gradient(90deg, $t, $q);}}
+  input, textarea {color: $t; background-color: $p !important; &::selection {color: $p; background: $t}}
+  h2, #title {color: $p;}
+  svg {fill: $p;}
+}
+
+/* Indigo */
+.colors-2 {
+  $p: #E8EAF6; $s: #7986CB; $t: #283593; $q: #1A237E;
+  ::selection {color: $t; background: $p}
+  color: $p; background-color: $t;
+  hr {border-color: $s;}
+  button {color: $p; border-color: $s; background-color: $s; &:hover {background: linear-gradient(90deg, $t, $q);}}
+  input, textarea {color: $t; background-color: $p !important; &::selection {color: $p; background: $t}}
+  h2, #title {color: $p;}
+  svg {fill: $p;}
+}
+
+/* Cyan */
+.colors-3 {
+  $p: #E0F7FA; $s: #26C6DA; $t: #00838F; $q: #006064;
+  ::selection {color: $t; background: $p}
+  color: $p; background-color: $t;
+  hr {border-color: $s;}
+  button {color: $p; border-color: $s; background-color: $s; &:hover {background: linear-gradient(90deg, $t, $q);}}
+  input, textarea {color: $t; background-color: $p !important; &::selection {color: $p; background: $t}}
+  h2, #title {color: $p;}
+  svg {fill: $p;}
+}
+
+/* Pink */
+.colors-4 {
+  $p: #FCE4EC; $s: #EC407A; $t: #AD1457; $q: #880E4F;
+  ::selection {color: $t; background: $p}
+  color: $p; background-color: $t;
+  hr {border-color: $s;}
+  button {color: $p; border-color: $s; background-color: $s; &:hover {background: linear-gradient(90deg, $t, $q);}}
+  input, textarea {color: $t; background-color: $p !important; &::selection {color: $p; background: $t}}
+  h2, #title {color: $p;}
+  svg {fill: $p;}
+}
+
+/* Teal */
+.colors-5 {
+  $p: #E0F2F1; $s: #26A69A; $t: #00695C; $q: #004D40;
+  ::selection {color: $t; background: $p}
+  color: $p; background-color: $t;
+  hr {border-color: $s;}
+  button {color: $p; border-color: $s; background-color: $s; &:hover {background: linear-gradient(90deg, $t, $q);}}
+  input, textarea {color: $t; background-color: $p !important; &::selection {color: $p; background: $t}}
+  h2, #title {color: $p;}
+  svg {fill: $p;}
+}
+
+/* Green */
+.colors-6 {
+  $p: #E8F5E9; $s: #66BB6A; $t: #2E7D32; $q: #1B5E20;
+  ::selection {color: $t; background: $p}
+  color: $p; background-color: $t;
+  hr {border-color: $s;}
+  button {color: $p; border-color: $s; background-color: $s; &:hover {background: linear-gradient(90deg, $t, $q);}}
+  input, textarea {color: $t; background-color: $p !important; &::selection {color: $p; background: $t}}
+  h2, #title {color: $p;}
+  svg {fill: $p;}
+}
+
+
+
+/* Document Styling */
+html {
+  overflow-y: scroll;
+  font-family: 'montserrat', sans-serif !important;
+  font-weight: 700;
+}
+
+hr {
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+.project {
+  margin-top: 2rem;
+}
+
+.project img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+#logo {
+  height: 5em;
+  max-width: 100vw;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+
+#title {
+  margin-top: 1.3rem;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.title {
+
+  margin-bottom: 1rem;
+}
+
+.container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  width: 100%;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+#menu {
+  margin-top: 2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+input {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  height: 4rem;
+  resize: none;
+}
